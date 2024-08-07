@@ -24,7 +24,7 @@ def read_json_and_display(file_path, icon_path):
         message = data['message']  # فرض می‌کنیم پیام در فیلد 'message' فایل JSON قرار دارد
 
     root = tk.Tk()
-    root.title("iT")
+    root.title("واحد فناوری اطلاعات")
     root.resizable(False, False)  # غیرفعال کردن دکمه ماکزیمایز
     center_window(root)
 
@@ -38,7 +38,7 @@ def read_json_and_display(file_path, icon_path):
     label.pack(fill=tk.BOTH, expand=True)
 
     # ایجاد دکمه لینک به گیت‌هاب
-    github_button = tk.Button(root, text="Copyright © MIT License with ❤️in GitHub", command=lambda: webbrowser.open_new("https://github.com/your_username/your_repository"))
+    github_button = tk.Button(root, text="Copyright © MIT License with ❤️in GitHub", command=lambda: webbrowser.open_new("https://github.com/farzadrahimi/Send-Alarm"))
     github_button.pack(pady=10)
 
     # همیشه روی پنجره‌های دیگر قرار بگیرد
